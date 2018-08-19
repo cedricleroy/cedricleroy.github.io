@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cedric&#39;s notes</title>
+    <link>/</link>
+    <description>Recent content on Cedric&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Aug 2018 21:00:14 -0500</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>This Website</title>
+      <link>/posts/this-website/</link>
+      <pubDate>Sat, 18 Aug 2018 21:00:14 -0500</pubDate>
+      
+      <guid>/posts/this-website/</guid>
+      <description>This website uses hugo, a static website generator. There is no particular reasons for me choosing hugo. There are tons of other solutions available. I needed something simple enough to avoid the hassle of learning a new framework, being static and support of markdown. Google leaded me to hugo.
+Installation (MacOS)
+&amp;gt;&amp;gt; brew install hugo  Creating a new site hugo new mynewsite  Themes Hugo uses themes. I picked up after dark, a minimalist dark theme.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/</link>
+      <pubDate>Sat, 18 Aug 2018 17:23:01 -0500</pubDate>
+      
+      <guid>/</guid>
+      <description>&amp;gt;&amp;gt; python say_hello.py ___ ___ .__ .__ __ __ .__ .___ / | \ ____ | | | | ____ / \ / \___________| | __| _/ / ~ \_/ __ \| | | | / _ \ \ \/\/ / _ \_ __ \ | / __ | \ Y /\ ___/| |_| |_( &amp;lt;_&amp;gt; ) \ ( &amp;lt;_&amp;gt; ) | \/ |__/ /_/ | \___|_ / \___ &amp;gt;____/____/\____/ \__/\ / \____/|__| |____/\____ | \/ \/ \/ \/  </description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>/about/</link>
+      <pubDate>Sat, 18 Aug 2018 17:01:29 -0500</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am a software developer / engineer working on renewable energies applications.
+I mainly use Python, but also Angular and Go.
+github
+linkedin</description>
+    </item>
+    
+  </channel>
+</rss>
