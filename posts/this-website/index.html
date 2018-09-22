@@ -262,6 +262,11 @@ having <code>index.html</code> in the <code>layouts/</code> folder of the site. 
 
 <p>I am following the official <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages">hugo doc</a> for this.</p>
 
+<p>There are two git repos: One for the source, and another one for the generated site. The generated site is in the <code>public/</code> folder of the source
+repo (with <code>public/</code> in <code>.gitignore</code> to avoid source controlling two times the generated site)</p>
+
+<p>Typing <code>hugo</code> just generates the website in <code>public/</code>. <code>hugo serve</code> is used for local display.</p>
+
 </main>
     <footer>
   
