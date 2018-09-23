@@ -6,10 +6,20 @@
     <description>Recent content on Cedric&#39;s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Aug 2018 21:00:14 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 20:32:21 -0500</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Development Workflow</title>
+      <link>/posts/a-development-workflow/</link>
+      <pubDate>Sun, 19 Aug 2018 20:32:21 -0500</pubDate>
+      
+      <guid>/posts/a-development-workflow/</guid>
+      <description>From my first programming steps, I used a bunch of different IDEs to code, depending on the times and the programming language used: Borland C++, Code::Blocks (for C), Visual Studio (C, C++), Matlab IDE, IDLE (Python native IDE), Eclipse (With PyDev for Python), Spyder, Sublime Text, Vim, VS Code, etc.
+This is somehow chronological. I lately used VS Code because of three main reasons: This is a great software from Microsoft, I needed to work on Windows (unfortunately) and wanted something great for switching between languages.</description>
+    </item>
     
     <item>
       <title>This Website</title>
