@@ -6,10 +6,19 @@
     <description>Recent content on Cedric&#39;s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Aug 2018 20:32:21 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 27 Feb 2019 20:54:51 -0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git Sheet Cheat</title>
+      <link>/posts/git/</link>
+      <pubDate>Wed, 27 Feb 2019 20:54:51 -0600</pubDate>
+      
+      <guid>/posts/git/</guid>
+      <description> Local config &amp;gt;&amp;gt; git config --global user.email &amp;quot;email@example.com&amp;quot;  Reset last commit &amp;gt;&amp;gt; git reset HEAD~1  Status of all files &amp;gt;&amp;gt; git status -u  </description>
+    </item>
     
     <item>
       <title>A Development Workflow</title>
