@@ -17,7 +17,7 @@
       <pubDate>Wed, 27 Feb 2019 20:54:51 -0600</pubDate>
       
       <guid>/posts/git/</guid>
-      <description> Local config &amp;gt;&amp;gt; git config --global user.email &amp;quot;email@example.com&amp;quot;  Reset last commit &amp;gt;&amp;gt; git reset HEAD~1  Status of all files &amp;gt;&amp;gt; git status -u  </description>
+      <description> Local config &amp;gt;&amp;gt; git config --global user.email &amp;quot;email@example.com&amp;quot;  Reset last commit &amp;gt;&amp;gt; git reset HEAD~1  Status of all files &amp;gt;&amp;gt; git status -u  Update last commit &amp;gt;&amp;gt; git commit --amend &amp;gt;&amp;gt; git push origin &amp;lt;branch&amp;gt; --force  </description>
     </item>
     
     <item>
