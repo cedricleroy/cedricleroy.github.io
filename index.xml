@@ -6,10 +6,29 @@
     <description>Recent content on Cedric&#39;s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Feb 2019 20:54:51 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2019 15:28:38 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Algorithms</title>
+      <link>/posts/algorithms/</link>
+      <pubDate>Tue, 22 Oct 2019 15:28:38 -0500</pubDate>
+      
+      <guid>/posts/algorithms/</guid>
+      <description>Below are some homework / notes about algorithms.
+Merge Sort def merge_sort(l): &amp;#34;&amp;#34;&amp;#34; merge sort implementation &amp;#34;&amp;#34;&amp;#34; length = len(l) if length in [0, 1]: # base cases return l middle = length // 2 left, right = l[:middle], l[middle:] left_sorted = merge_sort(left) right_sorted = merge_sort(right) merged = [] i = j = 0 while i != len(left_sorted) and j != len(right_sorted): if left_sorted[i] &amp;lt; right_sorted[j]: merged.append(left_sorted[i]) i += 1 elif left_sorted[i] &amp;gt; right_sorted[j]: merged.</description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/posts/python/</link>
+      <pubDate>Sat, 09 Mar 2019 10:00:36 -0600</pubDate>
+      
+      <guid>/posts/python/</guid>
+      <description> Data structures Lists i = l.index(value) # get index l = l[::-1] # reverse a list</description>
+    </item>
     
     <item>
       <title>Git Sheet Cheat</title>
@@ -43,10 +62,10 @@ Installation (MacOS)
     
     <item>
       <title></title>
-      <link>/</link>
+      <link>/index.html</link>
       <pubDate>Sat, 18 Aug 2018 17:23:01 -0500</pubDate>
       
-      <guid>/</guid>
+      <guid>/index.html</guid>
       <description>&amp;gt;&amp;gt; python say_hello.py ___ ___ .__ .__ __ __ .__ .___ / | \ ____ | | | | ____ / \ / \___________| | __| _/ / ~ \_/ __ \| | | | / _ \ \ \/\/ / _ \_ __ \ | / __ | \ Y /\ ___/| |_| |_( &amp;lt;_&amp;gt; ) \ ( &amp;lt;_&amp;gt; ) | \/ |__/ /_/ | \___|_ / \___ &amp;gt;____/____/\____/ \__/\ / \____/|__| |____/\____ | \/ \/ \/ \/  </description>
     </item>
     
@@ -57,7 +76,7 @@ Installation (MacOS)
       
       <guid>/about/</guid>
       <description>I am a software developer / engineer working on renewable energies applications.
-I mainly use Python, but also Angular and Go.
+I mainly use Python, but also Angular and Rust.
 github
 linkedin</description>
     </item>

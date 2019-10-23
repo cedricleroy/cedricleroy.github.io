@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta name="generator" content="Hugo 0.46" />
+    <meta name="generator" content="Hugo 0.55.3" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This Website | Cedric&#39;s notes</title>
@@ -24,22 +24,8 @@ Installation (MacOS)
 &gt;&gt; brew install hugo  Creating a new site hugo new mynewsite  Themes Hugo uses themes. I picked up after dark, a minimalist dark theme." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/this-website/" />
-
-
-
 <meta property="article:published_time" content="2018-08-18T21:00:14-05:00"/>
-
 <meta property="article:modified_time" content="2018-08-18T21:00:14-05:00"/>
-
-
-
-
-
-
-
-
-
-
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="This Website"/>
@@ -127,6 +113,37 @@ fetchInject(["/js/lazysizes.min.js"]);
     
     
       <script>fetchInject(["/css/syntax.css"])</script>
+
+      
+      <script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['$$','$$']],
+          processEscapes: true,
+          processEnvironments: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+          TeX: { equationNumbers: { autoNumber: "AMS" },
+              extensions: ["AMSmath.js", "AMSsymbols.js"] }
+        }
+        });
+        MathJax.Hub.Queue(function() {
+          
+          
+          
+          var all = MathJax.Hub.getAllJax(), i;
+          for(i = 0; i < all.length; i += 1) {
+              all[i].SourceElement().parentNode.className += ' has-jax';
+          }
+        });
+
+        MathJax.Hub.Config({
+        
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+        });
+      </script>
+
       <noscript>
         <link href=/css/syntax.css rel="stylesheet">
       </noscript>
