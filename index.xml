@@ -6,10 +6,23 @@
     <description>Recent content on Cedric&#39;s notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Oct 2019 15:28:38 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2019 13:23:12 -0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rust Idioms</title>
+      <link>/posts/rust/</link>
+      <pubDate>Sun, 03 Nov 2019 13:23:12 -0600</pubDate>
+      
+      <guid>/posts/rust/</guid>
+      <description>Resources Below are some great resource that were used for this page:
+ Rust Programming Techniques: https://youtu.be/vqavdUGKeb4 Rust Language Cheat Sheet: https://cheats.rs/  Pattern Matching enum Foo{A(i32),B,C}letfoo=matchx{Foo::A(n)=&amp;gt;n,_=&amp;gt;0,}; Option Type enum Option&amp;lt;T&amp;gt;{Some(T),None} Result Type enum Result&amp;lt;T,E&amp;gt;{Ok(T),Err(E)} Example:
+fn h(value: i32)-&amp;gt; Result&amp;lt;i32,String&amp;gt;{matchi{iifi&amp;gt;=0=&amp;gt;Ok(i+10),_=&amp;gt;Err(format!(&amp;#34;Input to h less than 0, found {}&amp;#34;,i))}}fn main(){letinput: i32 =4;matchh(input){Ok(value)=&amp;gt;println!(&amp;#34;Result: {}&amp;#34;,value),Err(e)=&amp;gt;println!(&amp;#34;Error: {}&amp;#34;,e)}} if let ifletOk(i)=h(){// do something } We ignore any error.
+? Common idiom:
+leti=matchh(){Ok(i)=&amp;gt;i,err=&amp;gt;returnerr// throw the error }; Equals to the following one liner:</description>
+    </item>
     
     <item>
       <title>Algorithms</title>
