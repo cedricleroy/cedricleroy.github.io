@@ -157,27 +157,33 @@ Microsoft, I needed to work on Windows (unfortunately) and wanted something grea
 <p>A couple of years now I have been using <code>Vim</code>. I still feel as a newbie considering the wide options it offers, but also feel
 productive with it. I use it in the shell, but also with <code>Sublime Text</code> and <code>VS Code</code> thanks to the plugins.</p>
 
-<p><code>Vim</code> in the shell with some configuration and plugins is a killer tool for developping in Python.
+<p><code>Vim</code> in the shell with some configuration and plugins is a killer tool for developping in any language.
 <img src="/vim.png" alt="vim" /></p>
 
 <p><a href="https://github.com/cedricleroy/config/blob/master/.vimrc">Here</a> is my vim configuration file (<code>.vimrc</code>). Here is what is worth
 mentionning:</p>
 
 <ul>
-<li>I use <a href="https://github.com/cedricleroy/config/blob/master/.vimrc">vundle</a> as vim package manager.
-Installing a plugin is simple: <code>:PluginInstall</code></li>
+<li>I use <a href="https://github.com/VundleVim/Vundle.vim">vundle</a> as vim package manager.
+Installing a plugin is simple: <code>:PluginInstall</code>, after adding <code>Plugin &quot;&lt;name&gt;&quot;</code> in <code>.vimrc</code>.</li>
 <li>My leader key is <code>\</code></li>
 <li>Plugins:
 
 <ul>
-<li>Nerdtree (left of the screenshot above)</li>
-<li>Vim colorschemes (I usually use <code>molokai</code>).</li>
-<li><code>ctrp</code>: Fuzzy file finder. I tend to use <code>fzf</code> more now.</li>
-<li>Vim airline with themes for status/tabline.</li>
-<li><code>ale</code> for async linting.</li>
-<li><code>jedi</code> for Python autocompletion.</li>
-<li><code>ack</code> as search tool.</li>
-<li><code>fzf</code> as main fuzzy file finder.</li>
+<li><a href="https://github.com/scrooloose/nerdtree">Nerdtree</a> (left buffer of the screenshot above)</li>
+<li><a href="https://github.com/Xuyuanp/nerdtree-git-plugin">nerdtree-git-plugin</a>: A plugin of NERDTree showing git status flags.</li>
+<li><a href="https://github.com/ryanoasis/vim-devicons">VimDevIcons</a>. This plugin is to have file icons showing up in the menu (like VSCode). It requires having a patched font (I am using Fira Code with ligatures enabled as standard font, and Hack Nerd Font as Non-ASCII font). Those needs be be configured in the terminal (iTerm2 in my case). They are installed with the following commands on Mac:
+<code>
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code
+brew cask install font-hack-nerd-font
+</code></li>
+<li><a href="https://github.com/flazz/vim-colorschemes">colorschemes</a> (I usually use <code>molokai</code>).</li>
+<li>Vim <a href="https://github.com/vim-airline/vim-airline">airline</a> with <a href="https://github.com/vim-airline/vim-airline-themes">airline-themes</a> for status/tabline.</li>
+<li><a href="https://github.com/dense-analysis/ale">ale</a> for async linting.</li>
+<li><a href="https://github.com/ycm-core/YouCompleteMe">YouCompleteMe</a> for autocompletion.</li>
+<li><a href="https://github.com/tpope/vim-fugitive">Vim Fugitive</a> as Git wrapper.</li>
+<li><a href="https://github.com/junegunn/fzf">fzf</a> as main fuzzy file finder.</li>
 </ul></li>
 <li>A few key binding:
 
