@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git Sheet Cheat | Cedric&#39;s notes</title>
-    <meta name="description" content=" Local config &gt;&gt; git config --global user.email &quot;email@example.com&quot;  Reset last commit &gt;&gt; git reset HEAD~1  Status of all files &gt;&gt; git status -u  Update last commit &gt;&gt; git commit --amend &gt;&gt; git push origin &lt;branch&gt; --force  ">
+    <meta name="description" content=" Local config &gt;&gt; git config --global user.email &quot;email@example.com&quot;  Reset last commit &gt;&gt; git reset HEAD~1  Status of all modified files &gt;&gt; git status -u  Update last commit &gt;&gt; git commit --amend &gt;&gt; git push origin &lt;branch&gt; --force  Apply (wrong) changes of one branch to another &gt;&gt; git stash &gt;&gt; git checkout the-right-branch &gt;&gt; git stash apply  ">
     <meta name="keywords" content="">
     
     
@@ -17,7 +17,7 @@
 
 
     <meta property="og:title" content="Git Sheet Cheat" />
-<meta property="og:description" content=" Local config &gt;&gt; git config --global user.email &quot;email@example.com&quot;  Reset last commit &gt;&gt; git reset HEAD~1  Status of all files &gt;&gt; git status -u  Update last commit &gt;&gt; git commit --amend &gt;&gt; git push origin &lt;branch&gt; --force  " />
+<meta property="og:description" content=" Local config &gt;&gt; git config --global user.email &quot;email@example.com&quot;  Reset last commit &gt;&gt; git reset HEAD~1  Status of all modified files &gt;&gt; git status -u  Update last commit &gt;&gt; git commit --amend &gt;&gt; git push origin &lt;branch&gt; --force  Apply (wrong) changes of one branch to another &gt;&gt; git stash &gt;&gt; git checkout the-right-branch &gt;&gt; git stash apply  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/git/" />
 <meta property="article:published_time" content="2019-02-27T20:54:51-06:00"/>
@@ -25,7 +25,7 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Git Sheet Cheat"/>
-<meta name="twitter:description" content=" Local config &gt;&gt; git config --global user.email &quot;email@example.com&quot;  Reset last commit &gt;&gt; git reset HEAD~1  Status of all files &gt;&gt; git status -u  Update last commit &gt;&gt; git commit --amend &gt;&gt; git push origin &lt;branch&gt; --force  "/>
+<meta name="twitter:description" content=" Local config &gt;&gt; git config --global user.email &quot;email@example.com&quot;  Reset last commit &gt;&gt; git reset HEAD~1  Status of all modified files &gt;&gt; git status -u  Update last commit &gt;&gt; git commit --amend &gt;&gt; git push origin &lt;branch&gt; --force  Apply (wrong) changes of one branch to another &gt;&gt; git stash &gt;&gt; git checkout the-right-branch &gt;&gt; git stash apply  "/>
 
     
 
@@ -142,7 +142,7 @@ fetchInject(["/js/lazysizes.min.js"]);
 <pre><code>&gt;&gt; git reset HEAD~1
 </code></pre>
 
-<h2 id="status-of-all-files">Status of all files</h2>
+<h2 id="status-of-all-modified-files">Status of all modified files</h2>
 
 <pre><code>&gt;&gt; git status -u
 </code></pre>
@@ -151,6 +151,13 @@ fetchInject(["/js/lazysizes.min.js"]);
 
 <pre><code>&gt;&gt; git commit --amend
 &gt;&gt; git push origin &lt;branch&gt; --force
+</code></pre>
+
+<h2 id="apply-wrong-changes-of-one-branch-to-another">Apply (wrong) changes of one branch to another</h2>
+
+<pre><code>&gt;&gt; git stash
+&gt;&gt; git checkout the-right-branch
+&gt;&gt; git stash apply
 </code></pre>
 
 </main>
